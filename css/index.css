@@ -1,0 +1,50 @@
+body {
+    margin-top: 100px;
+    max-width: 300px;
+    margin: auto;
+}
+
+h1 {
+    color: red;
+}
+
+p {
+    color: #1d62d3;
+}
+
+h1, p {
+    text-decoration: underline;
+    border: 1px solid black;
+}
+
+#chosen {
+    text-transform: uppercase;
+}
+
+.rotate {
+    transform: rotate(90deg);
+}
+
+
+
+
+div + p {
+    text-transform: lowercase;
+}
+
+div  p::before,
+div p::after {
+    content: '';
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.img-caption {
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
